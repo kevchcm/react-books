@@ -9,7 +9,7 @@ export default function App() {
 
     useEffect(()=>{
         fetchBooks()
-    }, [])
+    }, [fetchBooks])
 
     return (
         <div className="relative w-screen h-screen">
